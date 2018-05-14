@@ -1,3 +1,5 @@
 = link
 
-Description goes here
+Display links to documenation in certain projects.
+Projects are defined in appHook
+Links are generated in view template
