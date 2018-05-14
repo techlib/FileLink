@@ -1,0 +1,18 @@
+<% if @issue.project.name == 'Nákupy' %>
+  <div class="splitcontent">
+	<div class="splitcontentleft">
+		<div class="FileLink attribute">
+			<div class="label">Space:</div>
+			<div class="value"><a href="file://///space.ntkcz.cz/NTK/">\\space.ntkcz.cz\NTK\</a><a href="file://///space.ntkcz.cz/NTK/5 - Odbor ICT/">5 - Odbor ICT\</a><a href="file://///space.ntkcz.cz/NTK/5 - Odbor ICT/51 - Oddělení ICT akv a sys anl">51 - Oddělení ICT akv a sys anl\</a><a href="file://///space.ntkcz.cz/NTK/5 - Odbor ICT/51 - Oddělení ICT akv a sys anl/Zakazky">Zakazky\</a><a href="file://///space.ntkcz.cz/NTK/5 - Odbor ICT/51 - Oddělení ICT akv a sys anl/Zakazky/_archiv">_archiv\</a><a href="file://///space.ntkcz.cz/NTK/5 - Odbor ICT/51 - Oddělení ICT akv a sys anl/Zakazky/_archiv/<%= @issue.id -%>"><%= @issue.id -%>\</a>
+			</div>
+		</div>
+	</div>
+	<div class="splitcontentright">
+		<div class="FileLink attribute">
+	  		<div class="label">Web Space:</div>
+			<div class="value"><a href="https://space.techlib.cz/apps/files/?dir=/Sdílené/5 - Odbor ICT/51 - Oddělení ICT akv a sys anl/Zakazky/_archiv/<%=@issue.id-%>">https://space.techlib.cz/apps/files/?dir=/Sdílené/5 - Odbor ICT/51 - Oddělení ICT akv a sys anl/Zakazky/_archiv/<%=@issue.id-%></a>
+		</div>
+	</div>
+  </div>
+
+<% end %>
